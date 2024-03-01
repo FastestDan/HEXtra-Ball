@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bkz1IPd3DltoTxO1ehnsY24toLWXmN3LALI1wpNgqqh1sx02ypSBf09ZG+x+euapPSnmTWjwfYfj2Xy+/9Ltpg==",
+  "success": true,
+  "projectFilePath": "C:\\HTML\\SignalRChat\\HEXtra-Ball.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

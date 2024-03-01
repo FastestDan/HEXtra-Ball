@@ -1,0 +1,145 @@
+﻿@page
+@*<div class="container">
+    <div class="row p-1">
+        <div class="col-1">User</div>
+        <div class="col-5"><input type="text" id="userInput" /></div>
+    </div>
+    <div class="row p-1">
+        <div class="col-1">Message</div>
+        <div class="col-5"><input type="text" class="w-100" id="messageInput" /></div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6 text-end">
+            <input type="button" id="sendButton" value="Send Message" />
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <hr />
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+</div>*@
+
+@*<div class="row p-1">
+    <div class="col-6">
+        <hr />
+    </div>
+</div>*@
+@*<div class="row p-1">
+    <div class="col-6">
+        <hr />
+    </div>
+</div>*@
+@*<div class="row p-1">
+    <div class="col-6">
+        <hr />
+    </div>
+</div>*@
+
+<ul id="hexGrid">
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h11">
+                <h2 class="val">⦿</h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h12" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h13" >
+            <h2 class="val"> </h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h14" >
+            <h2 class="val"> </h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h21" >
+            <h2 class="val"> </h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h22" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h23" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h31" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h32" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h33" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h34" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h41" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h42" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>
+    <li class="hex">
+        <div class="hexIn">
+            <a class="hexLink" id="h43" >
+            <h2 class="val"></h2>
+            </a>
+        </div>
+    </li>     
+</ul>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/grid.js"></script>
